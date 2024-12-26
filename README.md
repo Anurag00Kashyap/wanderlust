@@ -33,13 +33,15 @@ _I'd love for you to make the most of this project - it's all about learning, he
    ```
 
 3. **Install Required Dependencies**
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-## Installs Node Version Manager (NVM) for managing Node.js versions.
-    nvm install 21
-## Verify Node.js and npm Installation:
-    node -v
-    npm -v
    ```bash
+ # Install Node Version Manager (NVM):
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+# Download and install Node.js
+nvm install 21
+# Verify Node.js and npm Installation:
+node -v
+npm -v
+
    npm i
    ```
 
